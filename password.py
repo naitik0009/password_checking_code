@@ -17,7 +17,7 @@ while i<len(password):
     if password[i].isupper():
         # print("upper")
         capital = True
-    if len(password) >= 8:
+    if len(password) >= 9:
         length = True
     if any(x in password[i] for x in number):
         # print("not upper and int")
